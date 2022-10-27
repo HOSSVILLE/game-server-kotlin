@@ -1,0 +1,27 @@
+POST http://localhost:8080/tokens
+Content-Type: application/json
+
+{
+  "inputStr": "open chest"
+}
+###
+POST http://localhost:8080/tokens
+Content-Type: application/json
+
+{
+"inputStr": "open the chest"
+}
+###
+POST http://localhost:8080/tokens 
+
+{
+"inputStr": "inventory"
+}
+###
+POST http://localhost:8080/tokens
+Content-Type: application/json
+
+{
+  "inputStr": "open inventory"
+}
+###
