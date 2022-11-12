@@ -33,7 +33,7 @@ jobs:
       - name: Archive rtifacts
         uses: actions/upload-artifact@v3
         with:
-          name: dist-without-markdown
+          name: game-server-kotlin
           path: |
             build/libs/game-server-all.jar
             
