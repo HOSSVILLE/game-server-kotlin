@@ -1,4 +1,4 @@
-package org.hoss.game.plugins
+package org.hoss.game.services.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.http.*

@@ -10,7 +10,7 @@ import io.ktor.client.statement.*
 import kotlin.test.*
 import io.ktor.server.testing.*
 
-import org.hoss.game.plugins.configureRouting
+import org.hoss.game.services.plugins.configureRouting
 
 class ApplicationTest {
     @Test
